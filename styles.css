@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Sticky Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Background and Text Colors */
+  .navbar {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .navbar-brand{
+    font-family: 'Tilt Prism', cursive;
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #333;
+    
+  }
+  
+  .navbar-brand:hover,
+  .navbar-nav .nav-link:hover {
+    color: #555;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    background-color: #f8f9fa;
+    border: none;
+  }
+  
+  .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Search Form */
+  .form-control {
+    border-color: #ccc;
+  }
+  
+  /* Button */
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  /*Home Page Css*/
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    image-rendering: auto;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .logo {
+    font-size: 68px;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-size: 24px;
+  }
+  
+  
+  
+  
+  
+
+  
